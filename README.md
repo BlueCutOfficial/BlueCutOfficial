@@ -1,4 +1,4 @@
-### Hi there 👋
+Professional frontend developer 💻 Non-professional illustrator 🎨 Indie writter 🪶 Author of L'Académie des Renards 🦊 Pragmatic dreamer 🌙🔭 
 
 <!--
 **BlueCutOfficial/BlueCutOfficial** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +14,4 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
