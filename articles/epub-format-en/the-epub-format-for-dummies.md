@@ -204,13 +204,13 @@ And this is where the EPUB format's “Navigation Document” comes in. Navigati
 
 ![Hierarchy of an EPUB archive. The nav.xhtml and toc.ncx files are framed.](./screen-8.png)
 
-#### 2.2.2 - NCX et <nav>, deux façons de naviguer
+#### 2.2.2 - NCX and `<nav>`, two ways to navigate
 
 There are two files that can contain the table of contents. The first has the extension NCX. The second can be called “nav.xhtml”, and inside, your table of contents is contained in a `<nav epub:type=“toc”>` tag. But why two files to do the same thing?
 
 ![Gif cat looking left and right via GIPHY](https://media.giphy.com/media/KGALpllocqbQZCELCo/giphy.gif)
 
-In fact, the EPUB format is not set in stone. It's evolving! The W3C is constantly working to improve its recommendations. That's why we sometimes see two approaches that do the same thing in the same EPUB: one is “new” (and therefore undoubtedly better in terms of accessibility and modernity), and the second is “old”. The advantage of having both coexist is that the EPUB will adapt to more reading devices. Indeed, if your device is too old, it may not understand how to interpret the more modern structure.
+Actually, the EPUB format is not set in stone. It's evolving! The W3C is constantly working to improve its recommendations. That's why we sometimes see two approaches that do the same thing in the same EPUB: one is “new” (and therefore undoubtedly better in terms of accessibility and modernity), and the second is “old”. The advantage of having both coexist is that the EPUB will adapt to more reading devices. Indeed, if your device is too old, it may not understand how to interpret the more modern structure.
 
 For navigation, the old way is NCX, and the modern way is to use a `<nav epub:type=“toc”>` tag. It is preferable to have NCX, so that older readers can interpret the table of contents correctly.
 

@@ -204,7 +204,7 @@ Et c'est là que le "Navigation Document" du format EPUB entre en scène. La nav
 
 ![Hiérarchie d'une archive EPUB. Les fichiers nav.xhtml et toc.ncx sont encadrés.](./screen-8.png)
 
-#### 2.2.2 - NCX et <nav>, deux façons de naviguer
+#### 2.2.2 - NCX et `<nav>`, deux façons de naviguer
 
 Il existe deux fichiers qui peuvent contenir la table des matières. Le premier possède l'extension NCX. Le second peut s'appeler "nav.xhtml", et à l'intérieur, votre table des matières est contenue dans une balise `<nav epub:type="toc">`. Mais pourquoi deux fichiers pour faire la même chose ?
 
