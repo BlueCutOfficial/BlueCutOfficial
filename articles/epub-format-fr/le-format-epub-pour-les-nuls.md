@@ -238,6 +238,8 @@ Le seul fichier obligatoire s'appelle "container.xml" et permet à la liseuse de
 
 ![Hiérarchie d'une archive EPUB. Le dossier META-INF est encadré.](./screen-10.png)
 
+![Lien entre la position de content.opf dans la hiérarchie et le contenu de container.xhtml. Dans cet exemple, le fichier opf se situe à l'emplacement EPUB/content.opf depuis la racine de l'archive.](./screen-11.png)
+
 #### 2.4.2 - DRM
 
 META-INF peut contenir d'autres fichiers, notamment relatifs aux DRM.
@@ -256,9 +258,7 @@ Overview du format EPUB :
 
 https://www.w3.org/TR/epub-overview-33/
 
-Le format EPUB n'est pas gravé dans le marbre, vous avez pu le voir avec l'exemple de la navigation. Voilà pourquoi des liens vers différentes versions sont indiqués dans la page "EPUB 3 Overview". Avant de lire une spécification, faites attention à la version qui vous intéresse. 
-
-![Lien entre la position de content.opf dans la hiérarchie et le contenu de container.xhtml. Dans cet exemple, le fichier opf se situe à l'emplacement EPUB/content.opf depuis la racine de l'archive.](./screen-11.png)
+Le format EPUB n'est pas gravé dans le marbre, vous avez pu le voir avec l'exemple de la navigation. Voilà pourquoi des liens vers différentes versions sont indiqués dans la page "EPUB 3 Overview". Avant de lire une spécification, faites attention à la version qui vous intéresse.
 
 Au moment où j'écris ceci, la version considérée comme "la norme actuelle" est la version 3.2, dont voici l'URL :
 
