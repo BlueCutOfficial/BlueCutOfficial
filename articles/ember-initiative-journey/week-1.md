@@ -26,7 +26,7 @@ Once you have identified the perfect use case, look at it and look at what you w
 
 <img width="1483" alt="codemod-story-compare" src="https://github.com/user-attachments/assets/0cd8b8af-4f5c-4892-9d6b-bb0cf85df16e" />
 
-### The transformer
+### The transform
 
 Once you have a good vision of where you are and where you want to go, you must decide the best way to transform the code. Here are a few leads.
 
