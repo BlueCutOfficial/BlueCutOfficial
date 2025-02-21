@@ -40,13 +40,14 @@ Once you have a good vision of where you are and where you want to go, you must 
 
 ## Other tips
 
-- The command [`npm view`](https://docs.npmjs.com/cli/v7/commands/npm-view) allows you to print information from packages publicly published on npm. If you need to check a dependency for update, that's an easy way to retrive the information. 🐹 For our classic-to-Vite codemod, we use it to check if the latest version of a v1 addon is a v2.
+- The command [`npm view`](https://docs.npmjs.com/cli/v7/commands/npm-view) allows you to print information from packages publicly published on npm. If you need to check a dependency for update, that's an easy way to retrive the information. 🐹 For our classic-to-Vite codemod, we use it to check if the latest version of a v1 addon is a v2 (using the meta 'ember-addon' from the package.json).
 
 - If you work at the scale of a whole folder, you may need to use node filesystem. Two features to know are [`process.cwd()`](https://nodejs.org/docs/latest/api/process.html#processcwd) and [import.meta.url](https://nodejs.org/docs/latest-v15.x/api/esm.html#esm_import_meta_url). The first one will help you retrieve from where the node process is executed, and the latter what module you are currently in when its code executes. Let's assume I run the codemod in the app folder I want to transform:
 ```js
 // my-codemod/index.js
 import { readFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const pkg = JSON.parse(await readFile(join(__dirname, 'package.json'), 'utf8'));
 // pck is the package.json of my codemod app, maybe I may locate some files used by the codemod from there
