@@ -2,7 +2,7 @@
 
 _Week 2 - releasing the codemod_
 
-_#web #emberjs #codemod #docs #vitest_
+_#web #emberjs #codemod #docs #embroider #vite #vitest_
 
 At the end of this second week, we have the first release of [ember-vite-codemod](https://www.npmjs.com/package/ember-vite-codemod)! It can make Ember >=5.12 apps building with Vite. Aside from all the AST manipulations, I had the opportunity to have a clearer vision of where we are going with this.
 
