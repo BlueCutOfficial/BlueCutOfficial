@@ -11,4 +11,6 @@ I want to bring you on my journey working on the Ember framework and share with 
 <img src="https://github.com/user-attachments/assets/c35a1d84-bf56-4e94-942b-14a6d5d39a8b" alt="personal drawing, a big hamster measures a tiny hamster with a ruler." width=600 />
 
 - [Week 1](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-1.md)
-  _#ember #codemod #ast #npmView #nodeFs_
+  _#ember #codemod #ast #npmView #nodeFs #embroider #vite_
+- [Week 2](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-2.md)
+  #web #emberjs #codemod #docs #embroider #vite #vitest

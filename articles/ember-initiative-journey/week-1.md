@@ -2,7 +2,7 @@
 
 _Week 1 - the codemod_
 
-_#web #emberjs #codemod #ast #npmView #nodeFs_
+_#web #emberjs #codemod #ast #npmView #nodeFs #embroider #vite_
 
 Ember's power is step-by-step improvement. As the framework evolves, the community won't leave you behind: it will provide you with everything you need to update your app and adopt modern practices at your own pace (Trust me on this; the first version I used was a 2.x, and I did all the way to 4.x). My job now is to help you migrate your classic Ember app to build with Vite. This is the first step of my journey: **the codemod to help developers migrate from classic apps to Vite apps**.
 
