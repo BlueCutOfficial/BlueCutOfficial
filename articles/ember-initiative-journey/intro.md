@@ -12,3 +12,5 @@ I want to bring you on my journey working on the Ember framework and share with 
 
 - [Week 1](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-1.md)
   _#ember #codemod #ast #npmView #nodeFs_
+- [Week 2](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-2.md)
+  _#ember #codemod #docs_
