@@ -1,0 +1,54 @@
+# The Ember Initiative Journey 🐹❤️
+
+_Week 3 - supporting @embroider/webpack_
+
+_#web #emberjs #codemod #docs #embroider #vite #vitest #testem_
+
+At the end of this third week, ember-vite-codemod brings Vite to your Ember app formerly building with `@embroider/webpack`, and this case is tested by the CI, which is the important part.
+
+## From `@embroider/webpack`to `@embroider/vite`: easy peasy?
+
+At the time of writing, [Embroider's README](https://github.com/embroider-build/embroider?tab=readme-ov-file#how-to-try-it) describes how to start building a classic app with `@embroider/webpack`; and it's quite straightforward, the only file that changes is `ember-cli-build.js`.
+
+This is very good news for our codemod because `ember-cli-build.js` turns out to be the only file that requires adjustments to support a migration from `@embroider/webpack`. In other words, the hard part is already done, once the `ember-cli-build.js` can be handled as "I start from classic" and "I start from Embroider+Webpack", the rest of the codemod works exactly the same as before.
+
+To manage this, I introduced a new option: `--embroider-webpack`. It helps the codemod understand what the initial situation is rather than trying to detect it somehow. The PR also [adapts the documentation](https://github.com/mainmatter/ember-vite-codemod?tab=readme-ov-file#from-embroiderwebpack) to the changes.
+
+Easy peasy? Not quite. If I spent half a day on the implementation itself, tests have been more challenging.
+
+## Testception
+
+### Port 7357 already in use:need-a-sad-hamster-emoji:
+
+The most interesting challenge from this week has been to build a good mental image of ember-vite-codemod's tests. The error I had to fight was "port already in use :7357". This error means that I am instantiating a server with a port that is already used by another running server. But why does it happen?
+
+If you're familiar with the Ember ecosystem, you may have recognized that port number: it's [Testem](https://github.com/testem/testem)'s default port! But why would I have different Testem servers listening at the same time? It's basically a concurrency story, but getting it clear requires having a good representation of the tests' execution.
+
+### What the tests do
+
+We have 3 different tests: one for classic Ember latest, one for classic Ember 5.12, and one for Embroider+Webpack Ember latest. These tests do exactly the same thing for each version. In the big lines:
+
+- Generate an Ember app with `ember new`
+- Create a simple acceptance test that visits the home page
+- Build the app the old way (ember-cli + Broccoli)
+- Run the tests (`ember test`) to make sure the acceptance test were passing in the first place
+- **Run the codemod**
+- Rebuild the app (it now builds with Vite)
+- Run the tests once more to make sure they pass with Vite _build mode_
+- Start a Vite dev server
+- Run the tests again with Testem to check they pass with Vite _dev mode_
+
+The point to pay attention to is that we have a test, and part of its instructions is to run an app's tests. Tests in tests. Testception.
+
+`ember-vite-codemod`'s tests run with [Vitest](https://vitest.dev/guide/), so imagine three boxes: each box represents a test run by Vitest, "classic latest", "classic 5.12", "Embroider+Webpack latest". When tests are in the same files, they execute sequentially by default. But when tests are in different files, they execute in parallel by default. At the start, my new "Embroider+Webpack latest" test was executed in a separate file, whereas both classics were in the same file.
+
+Now, in each box, imagine three other boxes of tests executing sequentially: first "legacy app", then "Vite app in build mode", then "Vite app in dev mode"; and these tests are Ember tests, which means they rely on Testem.
+
+To sum it up, I have two Vitest test files that execute concurrently, and both tests they run try to instantiate a Testem server. The faster can do it, the second triggers a "port 7357 already in use".
+
+Vitest is smarter than Testem from that perspective; it can find available ports by itself to manage concurrency. Testem, on the other hand, sticks to its default port if you don't pass a different one explicitly. The next part of the story is slightly less interesting in my opinion. I tried to use `portfinder` to solve the problem, but by the time the first server had started, `portfinder` had already returned the same port number to the second one. In the end, I found a way to specify the ports myself with an incremental number.
+
+### Concurrency: make it work
+
+The final solution I went with is to have all the tests in one file (abstraction after abstraction, one file was more elegant)
+
