@@ -2,7 +2,7 @@
 
 _Week 3 - supporting @embroider/webpack_
 
-_#web #emberjs #codemod #embroider #vite #vitest #testem_
+_#web #emberjs #codemod #embroider #vite #vitest #testem concurrency_
 
 At the end of this third week, ember-vite-codemod brings Vite to your Ember app formerly building with `@embroider/webpack`, and this case is tested by the CI, which is the important part.
 
