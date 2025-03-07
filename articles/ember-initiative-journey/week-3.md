@@ -57,6 +57,8 @@ Getting concurrency work in such a test suite is important because each test is 
 <br />
 <br />
 
-_This has been a short week for me (only three working days), but I am very happy with the outcome: the codemod now supports migration from `@embroider/webpack`, and I now have a clear mental picture of what the CI does. Chris Manson is currently working on getting Vite works for Ember < 5.12 (this involves Embroider doing some patching on ember-source itself); it's only when he's done that it will make sense for our codemod to support these older versions. Meanwhile, though we could improve the codemod indefinitely, we must also deal with the rest of the tasks planned for the first quarter. I think it's time for me to tackle the [audit of the top 100% Ember addons](https://github.com/orgs/mainmatter/projects/14/views/3?pane=issue&itemId=95485013&issue=embroider-build|embroider|2288) to get a sense of where the community is on that field.
+_This has been a short week for me (only three working days), but I am very happy with the outcome: the codemod now supports migration from `@embroider/webpack`, and I now have a clear mental picture of what the CI does. Chris Manson is currently working on getting Vite works for Ember < 5.12 (this involves Embroider doing some patching on ember-source itself); it's only when he's done that it will make sense for our codemod to support these older versions. Meanwhile, though we could improve the codemod indefinitely, we must also deal with the rest of the tasks planned for the first quarter. I think it's time for me to tackle the [audit of the top 100% Ember addons](https://github.com/orgs/mainmatter/projects/14/views/3?pane=issue&itemId=95485013&issue=embroider-build|embroider|2288) to get a sense of where the community is on that field._
 
-
+<br />
+[Intro](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/intro.md)
+[Week 2](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-2.md)
