@@ -63,3 +63,8 @@ let path = join(process.cwd(), 'config/environment.js')
 <br />
 
 _At the end of the week, I explored things that will turn out to be reworked or unused; alas, this is the way with this kind of project. I think a part of my work is valid though, especially the text replacements on the index.html files and the AST transformations on ember-cli-build.js and app.js. I'll need another week to get my "perfect case" working the way it needs to work._
+
+<br />
+
+[Intro](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/intro.md), 
+[Week 2](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-2.md)

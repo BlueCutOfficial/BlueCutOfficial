@@ -55,3 +55,9 @@ const testVersions = [
 <br />
 
 _Having the first version of the codemod released is a great achievement for this week. Now that we plan to communicate about it, we may have issues reported by the community. Also, there is one case we want to "do over document", which is the apps building with @embroider/webpack. It might be my focus next week._
+
+<br />
+
+[Intro](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/intro.md), 
+[Week 1](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-1.md), 
+[Week 3](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-3.md)
