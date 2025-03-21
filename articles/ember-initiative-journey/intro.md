@@ -18,3 +18,5 @@ I want to bring you on my journey working on the Ember framework and share with 
   _#web #emberjs #codemod #embroider #vite #vitest #testem #concurrency_
 - [Week 4](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-4.md)
   _#web #emberjs #emberobserver #publicapi #embercssmodules #emberscopedcss_
+- [Week 5](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-5.md)
+  _#web #emberjs #backwardCompatibility #embercssmodules #emberscopedcss #vite #vitest #snapshotTesting_
