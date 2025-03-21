@@ -2,7 +2,7 @@
 
 _Week 5 - between codemod improvements and migration paths_
 
-_#web #emberjs #embercssmodules #emberscopedcss #vite #vitest #snapshotTesting_
+_#web #emberjs #backwardCompatibility #embercssmodules #emberscopedcss #vite #vitest #snapshotTesting_
 
 This week has been very productive. We have Vite support for Ember 3.28, the migration path from ember-css-modules to ember-scoped-css is now clear, and we fixed a couple of issues in [ember-vite-codemod](https://github.com/mainmatter/ember-vite-codemod).
 
