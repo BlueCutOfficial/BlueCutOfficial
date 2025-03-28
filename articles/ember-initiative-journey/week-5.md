@@ -32,5 +32,6 @@ _At the time of writing, the latest Ember is 6.x. Ember 3.28 is three major vers
 <br />
 
 [Intro](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/intro.md), 
-[Week 4](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-4.md)
+[Week 4](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-4.md),
+[Week 6](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-6.md)
  
