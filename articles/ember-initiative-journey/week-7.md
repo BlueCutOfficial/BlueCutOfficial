@@ -24,8 +24,26 @@ However, if you start from a Vite app and want performances to benefit from `@em
 
 V2 world is different from classic world in two aspects: v2 addons don't impact the build pipeline; the app is responsible for the configuration (e.g. Babel configuration). Before, we had a classic addon adding a Babel plugin to the pipeline; now, all we want is that very same Babel pipeline added to the `babel.config.cjs` directly. Since the app is responsible for the configuration, the Babel plugin doesn't have to care about the external context (is a production or a dev build, do we want to force the stripping, etc...) Instead, we document how developers can configure Babel to have the default behavior (strip in production) and let them free to change this config if they have very specific needs.
 
-## Vite mode and Ember mode
+To sum it up, the plan is the following:
 
-One thing a bit tricky to manage with ember-test-selectors is testing. Since stripping `data-test-*` only happens in production, your tests would fail if you run them in the browser. In the classic version of ember-test-selectors, the environment variable `STRIP_TEST_SELECTORS` was used to change the behavior of the addon: the stripping happened even in a test build if the variable was `true`, so depending on its value the correct set of test (it strips or it doesn't strip runs). 
+- Refactor ember-test-selectors structure to a monorepo that separates the classic addons from tests
+- Separate the Babel plugins (strip-test-selectors and strip-data-test-properties) from the classic addon and get the classic addon install them.
+- Create a vite-app in the tests folder of the monorepo and install the package strip-test-selectors to run tests on the Babel configuration.
 
-//
+## About testing
+
+One thing tricky to manage with ember-test-selectors is testing. Since stripping `data-test-*` only happens in production, your tests would fail if you run them in the browser. In the classic version of ember-test-selectors, the environment variable `STRIP_TEST_SELECTORS` was used to change the behavior of the addon: the stripping happened even in a test build if the variable was `true`, so depending on its value, the correct set of test (it strips or it doesn't strip) runs.
+
+It's absolutely possible and legit to use such an environment variable in the Babel config of the vite-app used by the monorepo for testing. After all, we want to test the behavior of the strip-test-selectors plugin, not the behavior of the Babel config. But since we want to explain to developers how they can configure the "strip only in production", we could also consider it legit to base the test on this specific scenario, production vs development. Testing the development mode in CI is a bit more complicated, though, because we need to start a Vite dev server.
+
+Testing in development mode should probably be considered an enhancement, separated from introducing the strip-test-selectors Babel plugin.
+
+<br />
+<br />
+
+_Embroider 4 was finally released this week, we are on good rails to make Vite the default for new Ember apps. This is why the work on the top 100 addons is so important, since we don't want new apps to rely on the installation of classic addons. This weekly log was written from the train, I did my best ;)_
+
+<br />
+
+[Intro](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/intro.md), 
+[Week 5](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-6.md)
