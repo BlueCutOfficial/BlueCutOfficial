@@ -10,9 +10,9 @@ This week has been very short for the Ember Initiative since we had a team event
 
 [ember-test-selectors](https://github.com/mainmatter/ember-test-selectors) is this kind of classic addon that does things at build time and, therefore, is not a great candidate for a migration to v2 "as is". Let's sum up its behavior.
 
-ember-test-selectors relies on a boolean option which means "strip" or "don't strip" the `data-test-*` attributes from my templates. 
+ember-test-selectors relies on a boolean option that means "strip" or "don't strip" the `data-test-*` attributes from my templates. When the option is `true`, the addon builds a [Babel plugin](https://babeljs.io/docs/plugins/#plugin-development) and adds it to the list of processes to execute. There are 2 different Babel plugins: the "main" one strip the `data-test-*` attributes in your templates, and a second one also strips `data-test-*` properties from JS objects.
 
-//
+`@embroider/compat` is the part of Embroider in charge of making classic addons work in Vite apps whenever it's possible. Among other things, it generates a list of "Babel compat" plugins out of all the plugins added by claissic addons, and these "Babel compat" plugins are added in the `babel.config.mjs` of the Vite app through `babelCompatSupport` and `templateCompatSupport` functions. `@embroider/compat` is able to rewrite correctly the behavior of ember-test-selectors. The Babel plugins built by the addon are added to the Babel config of the Vite app using the "Babel compat" feature.
 
 ## Vite mode and Ember mode
 
