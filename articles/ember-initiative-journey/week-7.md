@@ -2,7 +2,7 @@
 
 _Week 7 - the short week_
 
-_#web #emberjs #embertestselectors #embervitecodemode #buildmode_
+_#web #emberjs #embertestselectors #embervitecodemode #babel #babelconfig_
 
 This week has been very short for the Ember Initiative since we had a team event at Mainmatter. I tried to move on with my tasks, but I couldn't properly finish anything.
 
