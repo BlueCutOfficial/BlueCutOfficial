@@ -2,7 +2,7 @@
 
 _Week 8 - a new release for ember-test-selectors_
 
-_#web #emberjs #embertestselectors_
+_#web #emberjs #embertestselectors #pnpm #workspaces #babel #viteplugins #rollupplugins #emberinspector_
 
 [ember-test-selectors 7.1.0](https://github.com/mainmatter/ember-test-selectors/releases/tag/v7.1.0-ember-test-selectors) is out, along with **strip-test-selectors 1.0.0**. After this topic was closed, I could also look into some issues on ember-vite-codemod and pair with Chris on our big next step: getting Ember Inspector work with Vite.
 
@@ -47,6 +47,22 @@ The plugin `babel` from [`@rollup/plugin-babel`](https://www.npmjs.com/package/@
 
 ## Ember Inspector structure
 
+- [Ember Inspector](https://github.com/emberjs/ember-inspector) is an Ember app that shows in an iFrame and gets information from the main Ember app displayed on the page.
+- To make communication possible, it injects a debug module on the page. This module is responsible for accessing and passing the required data to the inspector.
 
+This approach doesn't work with Vite because it relies on AMD modules and globals. We must find a new way to let the inspector communicate with an Embroider+Vite app. This work counts several steps that we touched upon this week:
 
+- Understand how the information is communicated for a Classic Ember app
+- Define the new protocol to communicate information from an Embroider+Vite app
+- Implement this protocol
+
+<br />
+<br />
+
+_Ember Inspector is an important subject for the Ember Initiative. It will be our main focus starting next week. The current goal with the budget we have is to write the RFC. I'll also keep working in parallel on a few open issues we have on ember-vite-codemod. For the Ember Initiative to continue, we need your support 🐹❤️ [Get in touch with Mainmatter](https://mainmatter.com/contact/)._
+
+<br />
+
+[Intro](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/intro.md), 
+[Week 7](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-7.md)
 
