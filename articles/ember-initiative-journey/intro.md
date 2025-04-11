@@ -24,3 +24,5 @@ I want to bring you on my journey working on the Ember framework and share with 
   _#web #emberjs #migrationStrategy #embercssmodules #emberscopedcss #monorepo #embertry_
 - [Week 7](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-7.md)
   _#web #emberjs #embertestselectors #babel #babelconfig_
+- [Week 8](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-8.md)
+  _#web #emberjs #embertestselectors #pnpm #workspaces #babel #viteplugins #rollupplugins #emberinspector_
