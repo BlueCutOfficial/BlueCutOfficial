@@ -46,4 +46,5 @@ _Embroider 4 was finally released this week, we are on good rails to make Vite t
 <br />
 
 [Intro](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/intro.md), 
-[Week 5](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-6.md)
+[Week 6](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-6.md),
+[Week 8](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-8.md)
