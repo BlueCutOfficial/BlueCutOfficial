@@ -26,3 +26,5 @@ I want to bring you on my journey working on the Ember framework and share with 
   _#web #emberjs #embertestselectors #babel #babelconfig_
 - [Week 8](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-8.md)
   _#web #emberjs #embertestselectors #pnpm #workspaces #babel #viteplugins #rollupplugins #emberinspector_
+- [Week 9](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-9.md)
+  _#web #emberjs #docs_writing #ember_inspector #vitejs #embroider #virtual_files_
