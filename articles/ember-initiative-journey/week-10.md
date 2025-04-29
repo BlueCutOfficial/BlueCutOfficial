@@ -2,7 +2,7 @@
 
 _Week 10 - Ember Inspector feat. Embroider_
 
-_#web #emberjs #ember_inspector #vite #embroider_
+_#web #emberjs #ember_inspector #vite #embroider #addons #blog_post_
 
 I am posting this summary a few days late since I couldn't work on it last Friday, but here it is. Unfortunately, it might be my last Ember Initiative weekly update for a while, unless the Initiative receives more support. But let's start with the good news and return to this later.
 
