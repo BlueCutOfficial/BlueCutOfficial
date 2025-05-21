@@ -2,7 +2,7 @@
 
 > Copy and translation of my article in French published on Panodyssey on July 7, 2021.
 
-Hello my budding weasels,
+Hello my budding ferrets,
 
 Outside, the sun is shining and the air is neither too hot nor too cold. It's perfect weather for a trip down to the lake. There, you'll unfold your towel on the sand and lie back with a good read, listening to the little birds and occasionally returning a couple of swans their haughty looks. A very good plan... Except you don't want to ruin your book on this excursion. Fortunately, it's the year 2021, so you own a e-reader. Ah, the digital book... you log in to your Kobo or Amazon account, choose your next reading, and bim... it's in the box, everything synchronizes automatically.
 
@@ -38,7 +38,7 @@ Download the Calibre application, including Calibre viewer:
 
 https://calibre-ebook.com/download
 
-Is everything okay so far, weasels?
+Is everything okay so far, ferrets?
 
 ## EPUB construction rules
 
@@ -90,7 +90,7 @@ In fact, it's the OPF file that your e-reader looks for when you open an EPUB. O
 ![Calibre Viewer icon circled next to content.opf](./screen-3.png)
 
 > 🦊 OPF, NCX and XHTML are text files!
-> A little advice from weasel to weasel: don't be scared off by exotic file extensions like “OPF”, “NCX” or “XHTML”. Very often, these files contain nothing but text, and the extension only serves to identify them or determine how they are structured. 
+> A little advice from ferret to ferret: don't be scared off by exotic file extensions like “OPF”, “NCX” or “XHTML”. Very often, these files contain nothing but text, and the extension only serves to identify them or determine how they are structured. 
 
 The OPF file is perfectly readable using Windows Notepad, although it's not very easy to digest. To see the pretty colors that highlight its structure, drag it into a tab in your browser (e.g. Firefox). Developers, on the other hand, have more advanced text editors with syntax highlighting.
 
