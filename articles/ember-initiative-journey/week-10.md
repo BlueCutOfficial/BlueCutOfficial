@@ -54,4 +54,5 @@ We have achieved so many things in 10 weeks of work. I am very enthusiastic abou
 <br />
 
 [Intro](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/intro.md), 
-[Week 9](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-9.md)
+[Week 9](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-9.md),
+[Break & Weeks 11-12](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/break-weeks-11-12.md)
