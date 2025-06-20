@@ -34,7 +34,7 @@ One thing I wasn't expecting, though, was how complicated it would be to try out
 <br />
 <br />
 
-Not the easiest week ever, there was a lot of context switching, but in the end I am rather satisfied with the outcome: four improvements delivered on ember-vite-codemod, a draft for Ember Inspector to continue when Chris is back, and a blog post in preparation about the addons audit that could be realistically published by the end of next week. Let's see if week 10 can be the release of our temporary Vite support for the inspector.
+_Not the easiest week ever, there was a lot of context switching, but in the end I am rather satisfied with the outcome: four improvements delivered on ember-vite-codemod, a draft for Ember Inspector to continue when Chris is back, and a blog post in preparation about the addons audit that could be realistically published by the end of next week. Let's see if week 10 can be the release of our temporary Vite support for the inspector._
 
 <br />
 
