@@ -26,6 +26,10 @@ pnpm dlx ember-cli@3.16 new my-old-3-16-app
 
 Personally, I have a folder on my computer that contains various versions of Ember apps from 3.16 to 6.4, using Broccoli, Embroider+Webpack, or Embroider+Vite build pipeline. I add this folder to almost all my VS Code workspaces. For instance, in my Ember Inspector workspace, I have four folders: the ember-inspector fork from Mainmatter, the ember.js fork that Chris Manson created for our proof of concept (see [blog post](https://mainmatter.com/blog/2025/06/20/ember-inspector-vite/)), the embroider repo that I used to draft the quick-fix plugin (still in the [blog post](https://mainmatter.com/blog/2025/06/20/ember-inspector-vite/)), and _that_ folder I called "Ember app fixtures" that contains all the Ember apps I regularly use for diverse manual testing.
 
+### A word about `ember-wormhole`
+
+[ember-wormhole](https://github.com/yapplabs/ember-wormhole) is an old addon that is used to render a part of your template in a given "distant" DOM element instead of right in place. It was developed before Ember provided the built-in `in-element` and still has a few more features. Because of the type of feature this is, ember-wormhole has dedicated support in the Ember Inspector, and it's part of the things that require a bit of refactoring to prepare the ground for Vite. This is one more challenge we raised as we are working on the Ember Inspector code: design the best strategy regarding ember-wormhole support.
+
 <br />
 <br />
 
