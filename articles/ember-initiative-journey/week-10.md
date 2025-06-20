@@ -49,7 +49,7 @@ The first three months are coming to an end, and unfortunately, we have to slow 
 <br />
 <br />
 
-We have achieved so many things in 10 weeks of work. I am very enthusiastic about the impact it has on the Ember community, and I sincerely hope the Ember Initiative can continue with more support.
+_We have achieved so many things in 10 weeks of work. I am very enthusiastic about the impact it has on the Ember community, and I sincerely hope the Ember Initiative can continue with more support._
 
 <br />
 
