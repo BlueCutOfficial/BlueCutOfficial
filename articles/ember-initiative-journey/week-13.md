@@ -38,4 +38,5 @@ _I am happy about our current progress on the Ember Inspector. Writing the blog 
 <br />
 
 [Intro](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/intro.md),
-[Break & Weeks 11-12](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/break-weeks-11-12.md)
+[Break & Weeks 11-12](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/break-weeks-11-12.md),
+[Week-14](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-14.md)
