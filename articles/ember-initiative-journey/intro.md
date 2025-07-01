@@ -34,3 +34,5 @@ I want to bring you on my journey working on the Ember framework and share with 
   _#web #emberjs #ember_inspector_
 - [Week 13](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-13.md)
   _#web #emberjs #blog_post #ember_inspector #vite #npx #pnpm_dlx_
+- [Week 14](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-14.md)
+  _#web #emberjs #ember_inspector #ember_fest #auto_reveal_
