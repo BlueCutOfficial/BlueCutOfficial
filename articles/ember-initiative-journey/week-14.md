@@ -1,6 +1,6 @@
 # The Ember Initiative Journey 🐹❤️
 
-_Week 13 - Ember Inspector & preparing Ember Fest_
+_Week 14 - Ember Inspector & preparing Ember Fest_
 
 _#web #emberjs #ember_inspector #ember_fest #auto_reveal_
 
@@ -28,4 +28,5 @@ _The first version of the Inspector RFC has now been submitted, and since we man
 <br />
 
 [Intro](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/intro.md),
-[Week 13](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-13.md)
+[Week 13](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-13.md),
+[Week 15](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-15.md)
