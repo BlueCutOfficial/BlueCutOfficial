@@ -34,4 +34,5 @@ _I am now following 3 paths in the Ember Initiative journey: the "compat" inspec
 <br />
 
 [Intro](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/intro.md),
-[Week 14](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-14.md)
+[Week 14](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-14.md),
+[Weeks 16 & 17](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-16-17.md)
