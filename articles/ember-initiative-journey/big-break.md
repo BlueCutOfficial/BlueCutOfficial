@@ -8,7 +8,7 @@ Even though I was working on a different project, I continued to prepare the tal
 
 ## While I was away...
 
-My colleague Florian replaced me on the Ember Initiative. He developed improvements on ember-vite-codemod and on the ember-inspector. Also, the Vite support for the Ember Inspector is now released 🎉 Chris continued the pairing session with the Initiative members, which allowed us to track meaningful issues to solve in the context of the Initiative. Also, Ember 6.8 is coming and Vite will now be the default experience when using `ember new`, as promised in the EmberFest talk.
+My colleague Florian replaced me on the Ember Initiative. He developed improvements on ember-vite-codemod and on the ember-inspector. Also, the Vite support for the Ember Inspector is now released 🎉 Chris continued the pairing sessions with the Initiative members, which allowed us to track meaningful issues to solve as part of the Initiative. Also, Ember 6.8 is coming and Vite will now be the default experience when using `ember new`, as promised in the EmberFest talk.
 
 ## Now that I am back
 
