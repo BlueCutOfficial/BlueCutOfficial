@@ -17,7 +17,7 @@ I already have a few things at the top of my to-do list. Our latest blog post mu
 <br />
 <br />
 
-I am really happy to be back on the Ember Initiative, and I can't wait to doing many useful things for the community.
+_I am really happy to be back on the Ember Initiative, and I can't wait to do many useful things for the community._
 
 <br />
 
