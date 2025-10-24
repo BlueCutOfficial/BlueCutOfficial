@@ -38,6 +38,8 @@ I want to bring you on my journey working on the Ember framework and share with 
   _#web #emberjs #ember_inspector #ember_fest #auto_reveal_
 - [Week 15](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-15.md)
   _#web #emberjs #ember_inspector #rfc #embroider_compat #thought #taking_breaks_
-- [Weeks 16 & 17](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-16-17.md)
+- [Weeks 16 & 17](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/weeks-16-17.md)
   _#web #emberjs #ember_inspector #virtual_files #embroider_compat_
 - [Big Break](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/big-break.md)
+- [Week 18](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-18.md)
+  _#web #emberjs #open_source #github #help_wanted #good_first_issue #fork #contributing #ember_scroll_modifiers_
