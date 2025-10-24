@@ -22,4 +22,5 @@ _I am really happy to be back on the Ember Initiative, and I can't wait to do ma
 <br />
 
 [Intro](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/intro.md), 
-[Weeks 16-17](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/weeks-16-17.md)
+[Weeks 16-17](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/weeks-16-17.md),
+[Week 18](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-18.md)
