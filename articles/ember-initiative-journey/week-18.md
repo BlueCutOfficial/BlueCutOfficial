@@ -4,11 +4,11 @@ Week 18 - Concatenating small things
 
 _#web #emberjs #open_source #github #help_wanted #good_first_issue #fork #contributing #ember_scroll_modifiers_
 
-The Ember Initiative needs more members so we can spend more time on it 🙏 Since my re-assignment, I could spend a bit more than 2 days working on the Initiative, and this time allowed me to do a few first things for the community. But to organize and tackle important topics like the new Route manager API, we need to invest a time that we don't have just yet. Mainmatter new plans make it easier for small companies to get onboard (I will post the extract of our talk about this when available).
+The Ember Initiative needs more members so we can spend more time on it 🙏 Since my re-assignment, I could spend a bit more than 2 days working on the Initiative, and this time allowed me to do a few first things for the community. But to organize and tackle important topics like the new Route manager API, we need to invest a time that we don't have just yet. Mainmatter new plans make it easier for small companies to get onboard (I will post the extract of our talk about this when available, but you can [get in touch](https://mainmatter.com/contact/) right now).
 
 ## Open source tips for beginners
 
-The Ember Initiative is mainly about open source things, but I feel like I didn't talk about the basics of open source development that much. Since I made my first contribution on `ember-scroll-modifiers` this week, now is a good time to get back to this.
+Open source work is a significant part of the Ember Initiative (though members can also get pairing sessions for their internal projects), but I feel like I didn't talk about the basics of open source development that much. Since I made my first contribution on `ember-scroll-modifiers` this week, now is a good time to get back to this.
 
 ### Want help or want to help: common labels
 
