@@ -6,9 +6,11 @@ _#web #emberjs #open_source #github #help_wanted #good_first_issue #fork #contri
 
 The Ember Initiative needs more members so we can spend more time on it 🙏 Since my re-assignment, I could spend a bit more than 2 days working on the Initiative, and this time allowed me to do a few first things for the community. But to organize and tackle important topics like the new Route manager API, we need to invest a time that we don't have just yet. Mainmatter new plans make it easier for small companies to get onboard (I will post the extract of our talk about this when available).
 
+## Open source tips for beginners
+
 The Ember Initiative is mainly about open source things, but I feel like I didn't talk about the basics of open source development that much. Since I made my first contribution on `ember-scroll-modifiers` this week, now is a good time to get back to this.
 
-## Want help or want to help: common labels
+### Want help or want to help: common labels
 
 If you are interested in open source but you are new at it, one interesting thing to know is the "universal" conventions on GitHub. On GitHub, you can assign labels to Pull Request and Issues. When you create a new project, a few labels are already available by default, and two of them are very important to communicate with other developers: "help wanted" and "good first issue". Their meaning is quite explicit, but let's still develop:
 
@@ -16,7 +18,7 @@ If you are interested in open source but you are new at it, one interesting thin
 
 - "good first issue": the maintainer should use this label on issues that they evaluate easy to do. It is something they could do themselves, but if they don't have time or have other priorities, they should to let this issue to anyone that would like to contribute without having a lot of knowledge on the repository yet.
 
-## How to contribute: the actual basics
+### How to contribute: the actual basics
 
 A long time ago, I was a developer who never contributed to an open source repository. When the time finally came, my innocent first action was to clone the repository, write my changes, and push a branch. But I wasn't allowed to push that branch... That was a bit problematic. How do you even contribute to a repository that doesn't belong to you? If you are a repository maintainer, I can only encourage you to explain the fork system, or point to resources that explain it.
 
