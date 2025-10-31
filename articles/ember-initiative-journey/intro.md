@@ -43,3 +43,5 @@ I want to bring you on my journey working on the Ember framework and share with 
 - [Big Break](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/big-break.md)
 - [Week 18](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-18.md)
   _#web #emberjs #open_source #github #help_wanted #good_first_issue #fork #contributing #ember_scroll_modifiers_
+- [Week 19](https://github.com/BlueCutOfficial/BlueCutOfficial/blob/main/articles/ember-initiative-journey/week-19.md)
+  _#web #emberjs #open_source #ember_scroll_modifiers #addon_v2 #migration_steps #guides_
